@@ -1,0 +1,143 @@
+body{
+		margin:0;
+		}
+		.container {
+		width:100vw;
+		height:100vh;
+		font-family:Century Gothic;
+		background-color:white;
+
+		display: grid;
+		
+		grid-template-clumns: 1fr 1fr 1fr;
+		grid-template-rows: 50px 1fr 1fr 100px;
+		gap:10px;
+		padding:10px;
+		box-sizing:border-box;
+		
+		
+		}
+		
+		.container div{
+		padding:10px;
+		border:1px solid #000000;
+		
+		}
+		
+		
+		
+		.header{ 
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: span 4;
+		}
+		
+		
+		
+			.nav{
+			width:100vw;
+			background-color:#004d39;
+			margin:auto;
+			overflow:auto;
+			height:30px;
+			}
+			
+			
+			
+			ul{
+			margin:0;
+			padding:0;
+			list-style:none;
+			}
+			
+			
+			li{
+			float:left;
+			}
+			
+			a:link{
+			color:white;
+			text-decoration:none;
+			display:block;
+			text-align:center;
+			padding:5px;
+			text-transform:uppercase;
+			font-size:15px;
+			font-family:Century Gothic;
+			}
+			
+			
+			a:hover {
+			background-color:white;
+			}
+		.nav {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 3;
+		grid-row-end: span 21;
+		}
+
+		
+		.content {
+		grid-row-start: 12;
+		grid-row-end: span 70;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		background-color: white;
+		margin-left:380px;
+		margin-right:380px;
+		border-style: none!important;
+		}
+		
+		
+		a:link {
+		color: white;
+		background-color: transparent;
+		text-decoration: none;
+		font-family:century gothic;
+		font-size:15px;
+		}
+		
+		
+		a:visited {
+		color: white;
+		background-color: transparent;
+		text-decoration: none;
+		font-size:20px;
+		}
+		
+		
+		
+		a:hover {
+		color: yellow;
+		background-color: transparent;
+		text-decoration: underline;
+		font-size:20px;
+		}
+		
+		
+		
+		a:active {
+		color: red;
+		background-color: transparent;
+		text-decoration: underline;
+		font-size:20px;
+		}
+		
+		#st {
+		font-style:italic;
+		color:yellow;
+		}
+		
+		#students {
+		color:white;
+		font-size: 14px;
+		}
+		
+		
+		#saveForm {
+  position: relative;
+  top: -43px;
+  left: 660px;
+}
